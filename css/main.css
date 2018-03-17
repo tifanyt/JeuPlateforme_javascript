@@ -1,0 +1,60 @@
+@charset "ISO-8859-1";
+/* CSS Document */
+
+body {
+	background: #f5f2ee;
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #FFF;
+}
+img{
+    display : block;
+    margin : auto;
+   
+}
+#canvas_holder {
+	margin: 0 auto;
+	width: 700px;
+	height: 400px;
+	background: #FFF;
+}
+#canvas_holder2 {
+	margin: 0 auto;
+	width: 600px;
+	height: 400px;
+	background: #FFF;
+}
+
+#canvas {
+}
+#feedback {
+}
+
+.id{
+    text-align: center;
+    
+}
+.bouton{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #aa8846;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 7px #999;
+}
+
+.bouton:hover {background-color: #8b754b}
+
+.bouton:active {
+  background-color: #c9a96a;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#div{
+    margin: 0 auto;
+}
